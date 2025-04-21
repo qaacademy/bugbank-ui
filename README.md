@@ -2,6 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  [![Netlify Status](https://api.netlify.com/api/v1/badges/32f537ef-2202-432e-9ff1-252fc87c490e/deploy-status)](https://app.netlify.com/sites/bugbank/deploys)
 
+# Pré-requisitos
+nodejs versão 20 https://nodejs.org/en/download
+
 # Bug Bank
 
 O banco com bugs e falhas do seu jeito.
@@ -12,29 +15,30 @@ _Bug Bank_ foi pensado para que você pratique planejamento de testes e automaç
 - [Contribuição](https://github.com/jhonatasmatos/bugbank/blob/main/CONTRIBUTING.md)
 - [Licença](https://github.com/jhonatasmatos/bugbank/blob/main/LICENSE)
 
-## Baixando o projeto
+## Setup
 
-para baixar o projeto faça o clone desse repositório com o comando.
+1- ```bash git clone https://github.com/qaacademy/bugbank-ui​```
 
-```bash
-  git clone https://github.com/jhonatasmatos/bugbank.git
-```
+Acesse a pasta com o projeto bugbank-ui:
 
-Agora acesse a pasta do projeto e digite o comando abaixo para baixar e atualizar as depêndencias do projeto.
+2- ```bash  cd bugbank-ui​ ```
 
-```bash
-  yarn
-```
+Installe o yarn:
+3- ```bash  npm install yarn ```
 
-## Rodando o projeto
+4- fecha o terminal e abre novamente, para aparecer a instalação.
 
-Para rodar o projeto, acesse a pasta do projeto via terminal e execute o comando:
+5- Abre novamente a pasta com o projeto bugbank-ui​ (mesmo diretório onde fizeram gitclone)
 
-```bash
-  yarn dev
-```
+ex: ```bash  cd /user/docments/bugbank-ui ```
 
-Agora acesse no browser o endereço localhost:3000
+6- No diretório do projeto bugbank: 
+```bash  yarn ```
 
----
-Feito com bug, café e muito esforço 👾 ☕
+7- inicializa o projeto local: 
+```bash  yarn dev ```
+
+
+Agora acesse no browser o endereço: 
+
+localhost:3000
